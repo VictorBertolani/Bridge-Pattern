@@ -32,7 +32,7 @@ namespace Bridge_Minecraft
             }
 
             // Solicita a escolha do minério
-            Console.WriteLine("Ótimo! Agora de qual minério será feito sua ferramenta? 1 = Diamante, 2 = Ferro");
+            Console.WriteLine("Ótimo! Agora de qual minério será feito sua ferramenta? 1 = Diamante, 2 = Ferro, 3 = Ouro");
             EscolhaMinerios = int.Parse(Console.ReadLine());
 
             // Variável para armazenar o minério
@@ -47,6 +47,8 @@ namespace Bridge_Minecraft
                 case 2:
                     minerio = new Ferro();
                     break;
+                    case 3:
+                    minerio = new Ouro(); break;
                 default:
                     Console.WriteLine("Erro, reinicie o código");
                     return; // Saímos do método se a escolha for inválida

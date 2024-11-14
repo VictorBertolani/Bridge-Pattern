@@ -50,6 +50,7 @@
     <Compile Include="Ferro.cs" />
     <Compile Include="IBridge.cs" />
     <Compile Include="Minerios.cs" />
+    <Compile Include="Ouro.cs" />
     <Compile Include="Picareta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
